@@ -91,8 +91,11 @@ export default {
     }
 
     .todo-item .todo-content{
+        width: 50%;
         flex: 1 1 0%;
     }
+
+
 
     .todo-item .todo-content input{
         color: #313154;

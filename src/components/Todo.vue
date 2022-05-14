@@ -57,7 +57,7 @@ export default {
             }
 
             if(title.value && category.value){
-                let id = todos.value.length + 1 || 0
+                let id = Math.random() * 9999;
                 const newTodo ={
                     id: id,
                     title: title.value,
@@ -73,10 +73,6 @@ export default {
 
         const deleteTodo =(id) => {
             todos.value = todos.value.filter( el => el.id != id);
-
-            todos.value = todos.value.map( (el, index)=> {
-                return {...el, id: index + 1};
-            })
         }
 
         const editTodo = (event, id) => {
