@@ -97,6 +97,7 @@ export default {
     .todo-item .todo-content input{
         color: #313154;
         font-size: 1.125rem;
+        text-transform: capitalize;
     }
     
     .todo-item .actions {

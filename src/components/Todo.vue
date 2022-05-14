@@ -42,8 +42,8 @@ export default {
 
         const todos = ref(
             [
-             {id: 1, title: "hello", category: "personal", edit: true},
-             {id: 2, title: "Me", category: "business", edit: true}
+             {id: 1, title: "Create a website", category: "personal", edit: true},
+             {id: 2, title: "Vue conference", category: "business", edit: true}
             ]
         )
 
